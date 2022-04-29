@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { watchEffect, watch, ref } from 'vue'
+import { watch, ref } from 'vue'
 import { useKuromojiStore } from '@/stores/kuromoji'
 import { useSearchStore } from '@/stores/search'
 import { JapaneseToFurigana } from '@/utils/analysis'
